@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Roboto", serif;
+  ---primary-background: #1D2A68;
+  ---primary-background-dark: #162159;
+  ---primary-offset: #48484c;
+  ---primary-offset-light: #a4abc4;
+  ---primary-success: #50866D;
+  ---primary-danger: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+.btn-off {
+  background-color: var(---primary-offset-light);
+  color: white
+}
+
+.btn-success {
+  background-color: var(---primary-success);
+}
+
+.btn-danger {
+  background-color: var(---primary-danger);
+}
+
+
