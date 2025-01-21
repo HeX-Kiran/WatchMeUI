@@ -7,10 +7,12 @@
   font-family: "Roboto", serif;
   ---primary-background: #1D2A68;
   ---primary-background-dark: #162159;
+  ---primary-background-light: #4F6093;
   ---primary-offset: #48484c;
   ---primary-offset-light: #a4abc4;
   ---primary-success: #50866D;
   ---primary-danger: red;
+  ---primary-neon-blue: #39C2E9
 }
 
 * {
